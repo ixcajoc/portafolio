@@ -1,0 +1,43 @@
+@media(max-width: 720px){
+    header{
+        height: 60vh;
+    }
+    .iconos{
+        font-size: 20px;
+        width: 30%;
+    }
+    .nombres h1{ font-size: 1.5rem;} 
+    .nombres h2{ font-size: 2rem;}
+    .nombres h3{ 
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+    .boton-imprimir{
+        min-width: 40%;
+        font-size: .8rem;
+     
+    }
+    .barra-menu{
+        display: none;
+    }
+    /* -----------secciones----------------------- */
+    .primera-fila,.segunda-fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #proyectos .tarjeta{
+        width: 80%;
+        height: 400px;
+    }
+    #habilidades .iconos-habilidades{
+        font-size: 3rem;
+    }
+    #contacto .iconos-contacto{
+        font-size: 3rem;
+        
+    }
+
+
+
+}
