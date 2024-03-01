@@ -10,9 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
     <title>Denis</title>
     <script src="https://kit.fontawesome.com/5ef1011481.js" crossorigin="anonymous"></script>
-    </head>
+</head>
 <body>
-    <header>
+    <header id="header">
         <div class="iconos">
             <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
             <a href="https://github.com/ixcajoc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
@@ -24,12 +24,13 @@
             <h2>Denis Ixcajoc</h2>
             <!-- <h3>Desarrollador Frontend</h3> -->
             
-            <a class="boton-imprimir" href="https://drive.google.com/file/d/1tbKRhHEjjdbfk-N2MhjbjQz19ijTvK7D/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-print"></i> Imprimir CV</a>
+            <a class="boton-imprimir" href="https://drive.google.com/file/d/1v0O4C3kvb5YDZjS9Xi7gnOsGiXC12Bfw/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-print"></i> Imprimir CV</a>
         </div>
 
         <div class="barra-menu">
             <div class="contenedor-opciones-izquierda">
-                <a href="#">Inicio</a>
+                <!-- <a href="#">Inicio</a> -->
+                <a href="#header">Inicio</a>
                 <a href="#sobre-mi">Sobre mi</a>
                 <!-- <a href="#">Cv</a> -->
             </div>
@@ -37,22 +38,22 @@
                 <div class="imagen-perfil"></div>
             </div>
             <div class="contenedor-opciones-derecha">
-                <a href="#proyectos">Portafolio</a>
+                <!-- <a href="#proyectos">Portafolio</a> -->
                 <a href="#habilidades">Habilidades</a>
                 <a href="#contacto">Contacto</a>
             </div>
         </div>
-
+        
     </header>
 
     <section id="sobre-mi">
         <h4>Hola a todos</h4>
-        <p>Soy un apasionado desarrollador junior con una sólida base en tecnologías web y otros lenguajes como python, java, c++. Tengo un deseo constante de aprender y crecer en el campo de la programación. Me encanta enfrentar nuevos desafíos y encontrar soluciones creativas para problemas complejos. Mi enfoque principal ha sido el desarrollo front-end. Soy una persona proactiva y comprometida, siempre dispuesto a colaborar en equipos y aportar ideas innovadoras. Estoy emocionado por tener la oportunidad de seguir expandiendo mis habilidades y contribuir al éxito de proyectos desafiantes.</p>
+        <p>Soy un apasionado desarrollador junior con una sólida base en tecnologías web y otros lenguajes como python, php, java, c++. Tengo un deseo constante de aprender y crecer en el campo de la programación. Me encanta enfrentar nuevos desafíos y encontrar soluciones creativas para problemas complejos. Mi enfoque principal ha sido el desarrollo front-end. Soy una persona proactiva y comprometida, siempre dispuesto a colaborar en equipos y aportar ideas innovadoras. Estoy emocionado por tener la oportunidad de seguir expandiendo mis habilidades y contribuir al éxito de proyectos desafiantes.</p>
 
     </section>
     <section id="proyectos">
         <h4>Proyectos</h4>
-        <div class="primera-fila">
+        <div class="grid">
             <div class="tarjeta">
                 <img src="imagenesFondo/cursos-municipales.jpg" >
                 <h5>Cursos Municipales</h5>
@@ -63,16 +64,33 @@
                 </div>
             </div>
             <div class="tarjeta">
-                <img src="imagenesFondo/operaciones-matrices.jpg" >
-                <h5>¿Qué es una matriz?</h5>
+                <img src="imagenesFondo/bienesraices.jpg" >
+                <h5>Bienes Raices</h5>
                 <p>Descripcion del proyecto</p>
                 <div class="botones">
-                    <a href="https://ixcajoc.github.io/metodos/" target="_blank" rel="noopener noreferrer">Ver</a>
-                    <a href="https://github.com/ixcajoc/metodos" target="_blank" rel="noopener noreferrer">Repositorio</a>
+                    <a href="https://ixcajoc.github.io/bienesraices/" target="_blank" rel="noopener noreferrer">Ver</a>
+                    <a href="https://github.com/ixcajoc/bienesraices" target="_blank" rel="noopener noreferrer">Repositorio</a>
                 </div>
             </div>
-        </div>
-        <div class="segunda-fila">
+            <div class="tarjeta">
+                <img src="imagenesFondo/festival.jpg" >
+                <h5>Festival de Múscia</h5>
+                <p>Descripcion del proyecto</p>
+                <div class="botones">
+                    <a href="https://ixcajoc.github.io/festival-musica/" target="_blank" rel="noopener noreferrer">Ver</a>
+                    <a href="https://github.com/ixcajoc/festival-musica" target="_blank" rel="noopener noreferrer">Repositorio</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="imagenesFondo/blogCafe.jpg" >
+                <h5>Blog sobre café</h5>
+                <p>Descripcion del proyecto</p>
+                <div class="botones">
+                    <a href="https://ixcajoc.github.io/denis-cafe/" target="_blank" rel="noopener noreferrer">Ver</a>
+                    <a href="https://github.com/ixcajoc/denis-cafe" target="_blank" rel="noopener noreferrer">Repositorio</a>
+                </div>
+            </div>
+        
             <div class="tarjeta">
                 <img src="imagenesFondo/python.jpg" >
                 <h5>Consulta de Valores de monedas</h5>
@@ -91,7 +109,9 @@
                     <a href="https://github.com/ixcajoc/login" target="_blank" rel="noopener noreferrer">Repositorio</a>
                 </div>
             </div>
+
         </div>
+            
 
     </section>
 
@@ -99,11 +119,13 @@
         <h4>Habilidades</h4>
         <div class="iconos-habilidades">
             <i class="fa-brands fa-html5"></i>
-            <!-- <i class="fa-brands fa-html5" style="color: #e12d2d;"></i> -->
             <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-sass"></i>
             <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-php"></i>
             <i class="fa-brands fa-java"></i>
             <i class="fa-solid fa-c"></i>
+            <!-- <i class="fa-solid fa-plus"></i> -->
         </div>
     </section>
 
@@ -117,9 +139,14 @@
         </div>
     </section>
     <footer>
-        <p><i class="fa-regular fa-copyright"></i> 
-            2023 Creado con <i class="fa-regular fa-heart" style="color: #f00000;"></i> por Denis</p>
+        <p><i class="fa-regular fa-copyright"></i>     
+        2024 Creado con <i class="fa-regular fa-heart" style="color: #f00000;"></i> por Denis</p>
     </footer>
+
+
+
+
+    <script src="js/app.js"></script>
     
 </body>
 </html>

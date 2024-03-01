@@ -8,9 +8,19 @@ body{
     background-size: cover;
     
 }
+
+.barra-fija{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
 header{
     /* border: solid black; */
-    height: 100vh;
+    /* height: 100vh; */
+    height: 600px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.50),
@@ -66,8 +76,10 @@ header{
     text-align: center;
     text-decoration: none;
     color:black;
-    width: 11%;
-    padding: 10px 0;
+    /* width: 11%; */
+    width: 100%;
+    max-width: 150px;
+    padding: 13px 0;
     border-radius: 20px;
     background-color: aqua;
     transition: background-color ease .3s;
@@ -78,16 +90,18 @@ header{
 }
 .barra-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: white;
     align-items: center;
     /* border: solid; */
-    height: 15%;
+    /* height: 15%; */
+    height: 100px;
     /*derecha, abajo, difuminacion, color*/
     box-shadow: 0 2px 15px rgba(0, 0, 0, .8);
     
 
 }
+
 .contenedor-opciones-derecha, .contenedor-opciones-izquierda{
     /* border: solid; */
     display: flex;
@@ -113,10 +127,10 @@ header{
 .contenedor-imagen-perfil{
     background-color: white;
     border-radius: 100%;
-    /* height: 180px;
-    width: 180px; */
-    height: 25vh;
-    width: 25vh;
+    height: 130px;
+    width: 130px;
+    /* height: 25vh;
+    width: 25vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +142,8 @@ header{
     border-radius: 100%;
     height: 90%;
     width: 90%;
-    background-image: url(../imagenesFondo/perfil2.jpg);
+    /* background-image: url(../imagenesFondo/perfil2.jpg); */
+    background-image: url(../imagenesFondo/cv3.jpg);
     /* background-image: url(imagenesFondo/fotoPerfil.png); */
     background-position: center;
     background-size: cover;

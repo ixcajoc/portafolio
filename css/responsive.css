@@ -17,19 +17,38 @@
         font-size: .8rem;
      
     }
-    .barra-menu{
+    /* .barra-menu{
+        display: none;
+    } */
+    .contenedor-opciones-izquierda{
+        margin-left: 0;
+        width: 50%;
+        padding-left: 10px;
+    }
+    .contenedor-opciones-derecha{
+        margin-right: 0;
+        width: 50%;
+        padding-right: 10px;
+    
+    }
+
+    .contenedor-imagen-perfil{
         display: none;
     }
+
     /* -----------secciones----------------------- */
-    .primera-fila,.segunda-fila{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+    #sobre-mi{
+        margin-top: 0;
     }
-    #proyectos .tarjeta{
+    #sobre-mi h4{
+        margin-top: 0;
+    }
+    
+    /* #proyectos .tarjeta{
         width: 80%;
         height: 400px;
-    }
+    } */
     #habilidades .iconos-habilidades{
         font-size: 3rem;
     }
