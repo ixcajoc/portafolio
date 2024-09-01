@@ -105,12 +105,13 @@ h4{
     transition: color 0.3s ease;
 }
 
-.fa-html5{color: #e12d2d;}
+.fa-html5,.fa-git-alt{color: #e12d2d;}
 .fa-css3-alt, .fa-php{color:#0F60BB ;}
-.fa-python{color:#E5B70A ;}
+.fa-python,.fa-database{color:#E5B70A ;}
 .fa-c{color: #0AE5E2;}
-.fa-java{color: #e12d2d;}
+.fa-java, .fa-angular{color: #e12d2d;}
 .fa-sass{color: #de38de;}
+.fa-bootstrap{color: #81048f;}
 
 #habilidades .iconos-habilidades i:hover{
     transition: color 0.3s ease;        
