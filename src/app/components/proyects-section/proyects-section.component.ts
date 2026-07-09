@@ -41,11 +41,11 @@ export class ProyectsSectionComponent {
       backendUrl:'https://example.com/project3/backend',
     },
     {
-      name: 'Project 3',
+      name: 'Project 4',
       technologies: ['Next.js', 'Tailwind CSS'],
-      previewViewUrl:'https://example.com/project3',
-      frontendUrl:'https://example.com/project3/frontend',
-      backendUrl:'https://example.com/project3/backend',
+      previewViewUrl:'https://example.com/project4',
+      frontendUrl:'https://example.com/project4/frontend',
+      backendUrl:'https://example.com/project4/backend',
     },
  
 

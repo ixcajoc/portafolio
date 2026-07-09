@@ -3,11 +3,11 @@
       <div class="px-gutter max-w-container-max mx-auto">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-lg gap-md">
           <div>
-            <h2 class="font-headline-md text-headline-md text-primary mb-xs">Featured Projects</h2>
-            <p class="text-on-surface-variant">A selection of my most impactful digital builds.</p>
+            <h2 class="font-headline-md text-headline-md text-primary mb-xs">Proyectos Destacados</h2>
+            <p class="text-on-surface-variant">Una selección de mis construcciones digitales más impactantes.</p>
           </div>
           <a class="inline-flex items-center gap-xs text-primary font-bold hover:underline" href="#">
-            View All Archives <span class="material-symbols-outlined">arrow_forward</span>
+            Ver más proyectos <span class="material-symbols-outlined">arrow_forward</span>
           </a>
         </div>
 
@@ -53,7 +53,7 @@
 
           <!-- Projects: Small cards -->
           @for (proyect of proyects; track $index) {
-            @if (!$first){
+            @if ($index > 0 && $index < 3) {
 
               <div class="md:col-span-4 md:row-span-1 group relative rounded-3xl overflow-hidden glass-card min-h-[300px]">
                 <div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
