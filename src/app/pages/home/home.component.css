@@ -1,0 +1,5 @@
+.bg-noise {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuB2BGP6_8gLTeAMpjEbQH1cqxydL96-bzkhTBcTAY3czmFJPVVTyvLC8eRLPo4e_K_kYHMtUAtXVCYYOf-Aixv294xQfhMN1lvc66Y4Ku7cXh3RMe2I6mMXcLDdA9sIrzxaT8W8DQlE8oa6GP264GWuDkag_HZs2XG_KcXIEOzOmiUCS6zIrvHTlFYbQmZiVAWGzo1kAmF3e8T94DIhO3lVrt2ldVzS3E1tocwXwUDU5Em0ttwX7s17ypAg68j1E-jVcu5ukwEwSTIn);
+    opacity: 0.03;
+    pointer-events: none
+}

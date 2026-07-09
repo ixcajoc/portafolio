@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #0b1326;
+    color: #dae2fd;
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.glass-card:hover {
+    border-color: rgba(219, 252, 255, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 30px rgba(219, 252, 255, 0.05)
+}
+
+/* .text-glow {
+    text-shadow: 0 0 20px rgba(219, 252, 255, 0.4)
+    } */
+/* .timeline-gradient {
+    background: linear-gradient(to bottom, #00dbe9, transparent)
+    } */
+/* .bg-noise {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuB2BGP6_8gLTeAMpjEbQH1cqxydL96-bzkhTBcTAY3czmFJPVVTyvLC8eRLPo4e_K_kYHMtUAtXVCYYOf-Aixv294xQfhMN1lvc66Y4Ku7cXh3RMe2I6mMXcLDdA9sIrzxaT8W8DQlE8oa6GP264GWuDkag_HZs2XG_KcXIEOzOmiUCS6zIrvHTlFYbQmZiVAWGzo1kAmF3e8T94DIhO3lVrt2ldVzS3E1tocwXwUDU5Em0ttwX7s17ypAg68j1E-jVcu5ukwEwSTIn);
+    opacity: 0.03;
+    pointer-events: none
+    } */
+
+/* .nav-item-active {
+    color: #dbfcff;
+    font-weight: 700;
+    border-bottom: 2px solid #dbfcff;
+    padding-bottom: 4px
+    } */

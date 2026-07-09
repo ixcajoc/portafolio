@@ -1,0 +1,7 @@
+.text-glow {
+    text-shadow: 0 0 20px rgba(219, 252, 255, 0.4)
+}
+.bg-hero{
+    background-image: url('../../../../public/images/cv_no_fondo.PNG');
+    filter: drop-shadow(0 0 0.75rem #626363);
+}

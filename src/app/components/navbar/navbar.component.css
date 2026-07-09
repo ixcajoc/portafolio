@@ -1,0 +1,6 @@
+.nav-item-active {
+    color: #dbfcff;
+    font-weight: 700;
+    border-bottom: 2px solid #dbfcff;
+    padding-bottom: 4px
+    }

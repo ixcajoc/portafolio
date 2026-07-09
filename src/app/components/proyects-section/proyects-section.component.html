@@ -1,0 +1,99 @@
+<!-- FEATURED PROJECTS -->
+    <section class="py-xl" id="projects">
+      <div class="px-gutter max-w-container-max mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-lg gap-md">
+          <div>
+            <h2 class="font-headline-md text-headline-md text-primary mb-xs">Featured Projects</h2>
+            <p class="text-on-surface-variant">A selection of my most impactful digital builds.</p>
+          </div>
+          <a class="inline-flex items-center gap-xs text-primary font-bold hover:underline" href="#">
+            View All Archives <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Bento Grid Layout -->
+        <!-- <div class="grid grid-cols-1 md:grid-cols-12 gap-md h-auto md:h-[800px]"> -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-md h-auto">
+
+          <!-- Project 1: Large card -->
+          <div class="md:col-span-8 md:row-span-2 group relative rounded-3xl overflow-hidden glass-card min-h-[300px]">
+            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105"
+              data-alt="Fondo de proyecto principal"
+              style="background-image: url('{{ proyects[0].bg_proyect }}')">
+            </div>
+            <!-- <img src="images/festival.jpg" alt="Fondo de proyecto principal" class="w-full h-full object-cover"> -->
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-90">
+            </div>
+            <div
+              class="absolute bottom-0 left-0 p-lg w-full flex flex-col md:flex-row justify-between items-end gap-md">
+              <div class="max-w-md">
+                <div class="flex gap-xs mb-md">
+                  <span class="px-sm py-1 bg-primary/20 border border-primary/30 rounded-full font-label-caps text-[10px] text-primary uppercase"
+                   *ngFor="let tech of proyects[0].technologies">{{tech}}</span>
+                </div>
+                <h3 class="font-headline-md text-3xl mb-xs">{{proyects[0].name}}</h3>
+                <p class="text-on-surface-variant line-clamp-2">{{proyects[0].description}}</p>
+              </div>
+
+              <!-- icons -->
+               <div class="absolute bottom-0 right-0 p-md flex gap-xs">
+                 <a *ngIf="proyects[0].previewViewUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyects[0].previewViewUrl }}" target="_blank">
+                   <span class="material-symbols-outlined">launch</span>
+                 </a>
+                 <a *ngIf="proyects[0].frontendUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyects[0].frontendUrl }}" target="_blank">
+                   <span class="material-symbols-outlined">view_quilt</span>
+                 </a>
+                 <a *ngIf="proyects[0].backendUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyects[0].backendUrl }}" target="_blank">
+                   <span class="material-symbols-outlined">storage</span>
+                 </a>
+               </div>
+            </div>
+          </div>
+
+          <!-- Projects: Small cards -->
+          @for (proyect of proyects; track $index) {
+            @if (!$first){
+
+              <div class="md:col-span-4 md:row-span-1 group relative rounded-3xl overflow-hidden glass-card min-h-[300px]">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+                  data-alt="A dark-themed developer tool website with an integrated code editor and collaboration features. The interface is filled with technical accents, monospaced fonts, and a sleek sidebar. The lighting focuses on the primary code editor area, which is displaying a colorful syntax-highlighted script, surrounded by a sophisticated glass-like shell."
+                  style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzzlBKt4kiarI5kXlA-UWPHA2fP3AAjlYe7_sgRCVDAbdxebGnIoTPqaHnOzbP6j5230nwIioF3R7h1VGVTCX4Jm-yX3RNl1sAz4d2d6xgiy6hIHucUR6y4M48jebMlow2E6r7SNAsxKnLjokXu6oN9ePqPer4e--ccV4wZ9hrLjhJytwZ0K51NcMuZRdf1GYw762dTAvFYKq-0T9J355SgeKmRJeNW_QQ5ZgYV7ZJfZdpTUHH7yjeFyen-v9zRWXQ35XaBS1VVeaj')">
+                
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-background via-background/10 to-transparent opacity-80">
+                </div>
+                <div class="absolute bottom-0 left-0 p-md  ">
+                  <div class="flex gap-xs">  
+                    <span 
+                      class="px-sm py-1 bg-tertiary-container/20 border border-tertiary/30 rounded-full font-label-caps text-[10px] text-primary uppercase mb-xs inline-block"
+                      *ngFor="let tech of proyect.technologies">{{tech}}
+                    </span>
+                    
+                  </div>
+
+                  <h3 class="font-bold text-xl">{{ proyect.name }}</h3> 
+                  <p class="text-muted-foreground">{{ proyect.description }}</p>
+                </div>
+  
+                <!-- icons -->
+                <div class="absolute top-0 right-0 p-md flex gap-xs">
+                  <a *ngIf="proyect.previewViewUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyect.previewViewUrl }}" target="_blank">
+                    <span class="material-symbols-outlined">launch</span>
+                  </a>
+                  <a *ngIf="proyect.frontendUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyect.frontendUrl }}" target="_blank">
+                    <span class="material-symbols-outlined">view_quilt</span>
+                  </a>
+                  <a *ngIf="proyect.backendUrl!" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center hover:scale-110 active:scale-95 transition-all" href="{{ proyect.backendUrl }}" target="_blank">
+                    <span class="material-symbols-outlined">storage</span>
+                  </a>
+                </div>
+              </div>
+            }
+
+            <!-- <app-proyect-card [proyect]="proyect"></app-proyect-card> -->
+          }
+
+        </div>
+      </div>
+    </section>
