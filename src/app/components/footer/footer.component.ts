@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { SocialMediaService } from '../../services/social-media.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,5 +10,11 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   
   currentYear: number = new Date().getFullYear();
+
+  socialMediaService = inject(SocialMediaService);
+
+  linkedin = this.socialMediaService.linkedinUrl;
+  youtube = this.socialMediaService.youtubeUrl;
+  github = this.socialMediaService.githubUrl;
 
 }
