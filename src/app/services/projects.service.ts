@@ -19,7 +19,7 @@ export class ProjectsService {
     },
     {
       name: 'Plataforma para descarga de diplomas digitales',
-      description: 'El más importante de todos, ya no por su calidad sino por todo lo que significa. Fue el proyecto que me mostró que si era capaz de crear soluciones que ayudaran a resolver el problema de alguien más.',
+      // description: 'El más importante de todos, ya no por su calidad sino por todo lo que significa. Fue el proyecto que me mostró que si era capaz de crear soluciones que ayudaran a resolver el problema de alguien más.',
       technologies: ['HTML', 'CSS', 'Js'],
       bg_proyect: 'images/cursos_municipales.jpg',
       previewViewUrl:'https://ixcajoc.github.io/juventudcursos/',
