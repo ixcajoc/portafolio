@@ -13,9 +13,17 @@ export class ProjectsService {
       bg_proyect: 'images/pasteleria_quetzal.jpg',
       technologies: ['Vue.js', 'PHP', 'MySQL'],
       previewViewUrl:'https://frontend-pasteleria.vercel.app/#/home',
-      frontendUrl:'https://ixcajoc.github.io/denis-cafe/',
+      frontendUrl:'https://github.com/ixcajoc/frontend-pasteleria',
       backendUrl:'https://github.com/ixcajoc/backend-pasteleria',
-      
+    },
+    {
+      name: 'Asofutbol',
+      description: '',
+      bg_proyect: 'images/asofutbol.jpg',
+      technologies: ['Angular', 'Express.js', 'PostgreSQL'],
+      previewViewUrl:'https://asofutbolsanlucas.vercel.app/',
+      frontendUrl:'https://github.com/ixcajoc/client-asofutbol',
+      backendUrl:'https://github.com/ixcajoc/server-asofutbol',
     },
     {
       name: 'Plataforma para descarga de diplomas digitales',
@@ -25,6 +33,15 @@ export class ProjectsService {
       previewViewUrl:'https://ixcajoc.github.io/juventudcursos/',
       frontendUrl:'https://github.com/ixcajoc/juventudcursos',
       backendUrl:'',
+    },
+    {
+      name: 'Trashy',
+      description: '',
+      // bg_proyect: 'images/asofutbol.jpg',
+      technologies: ['Angular', 'Express.js', 'Mongo DB'],
+      // previewViewUrl:'https://github.com/ixcajoc/client-asofutbol',
+      frontendUrl:'https://github.com/ixcajoc/reciclaje-plataforma-interactiva',
+      backendUrl:'https://github.com/ixcajoc/reciclajegameproject_mongodb',
     },
     {
       name: 'Bienes raices',
