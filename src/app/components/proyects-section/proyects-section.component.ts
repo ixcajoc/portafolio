@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import ProyectCard from './proyect-card/proyect-card';
 import { CommonModule } from '@angular/common';
 import { Project } from '../../Interfaces/proyect.interface';
-import { PojectsService } from '../../services/pojects.service';
+import { ProjectsService } from '../../services/projects.service';
 
 @Component({
   selector: 'app-proyects-section',
@@ -15,7 +15,7 @@ import { PojectsService } from '../../services/pojects.service';
 })
 export class ProyectsSectionComponent {
 
-  proyectService = inject(PojectsService);
+  proyectService = inject(ProjectsService);
 
   proyects: Project[] = this.proyectService.proyects;  
 

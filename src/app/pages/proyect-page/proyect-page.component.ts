@@ -3,7 +3,7 @@ import { NavbarComponent } from "../../components/navbar/navbar.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { CommonModule } from '@angular/common';
 import { Project } from '../../Interfaces/proyect.interface';
-import { PojectsService } from '../../services/pojects.service';
+import { ProjectsService } from '../../services/projects.service';
 
 @Component({
   selector: 'app-proyect-page',
@@ -16,7 +16,7 @@ import { PojectsService } from '../../services/pojects.service';
 })
 export class ProyectPageComponent {
 
-  proyectService = inject(PojectsService);
+  proyectService = inject(ProjectsService);
 
   proyects: Project[] = this.proyectService.proyects;
 
