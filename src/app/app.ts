@@ -10,7 +10,7 @@ import { HomeComponent } from "./pages/home/home.component";
   imports: [RouterOutlet]
 })
 export class App {
-  protected readonly title = signal('proyecto');
+  protected readonly title = signal('Denis Ixcajoc');
 
   
 }

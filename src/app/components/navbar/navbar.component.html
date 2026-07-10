@@ -4,13 +4,15 @@
       <a class="font-headline-md text-headline-md font-bold text-primary" href="#">DevPortfolio</a>
       <!-- Desktop Links -->
       <div class="hidden md:flex gap-md items-center">
-        <a class="text-primary font-bold border-b-2 border-primary pb-1 transition-all" href="#home">Home</a>
-        <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors" href="#about">About</a>
+        <a class="text-primary font-bold border-b-2 border-primary pb-1 transition-all" href="#home">Inicio</a>
+        <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors" href="#about">Sobre mí</a>
         <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors"
-          href="#projects">Projects</a>
-        <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors" href="#contact">Contact</a>
-        <button
-          class="ml-4 px-md py-2 bg-primary text-on-primary font-bold rounded-lg hover:scale-105 active:scale-95 transition-all">Resume</button>
+          href="#projects">Proyectos</a>
+        <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors" href="#contact">Contacto</a>
+        <a class="ml-4 px-md py-2 bg-primary text-on-primary font-bold rounded-lg hover:scale-105 active:scale-95 transition-all" 
+          [href]="cv" target="_blank">
+          Mi CV
+        </a>
       </div>
       <!-- Mobile Menu Icon (Generic) -->
       <button class="md:hidden text-primary">
