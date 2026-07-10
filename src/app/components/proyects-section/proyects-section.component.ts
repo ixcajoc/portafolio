@@ -9,7 +9,7 @@ import { ProjectsService } from '../../services/projects.service';
   imports: [
     // ProyectCard
     CommonModule,
-  ],
+],
   templateUrl: './proyects-section.component.html',
   styleUrl: './proyects-section.component.css',
 })
