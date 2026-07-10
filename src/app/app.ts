@@ -7,7 +7,7 @@ import { HomeComponent } from "./pages/home/home.component";
   // imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports: [HomeComponent]
+  imports: [RouterOutlet]
 })
 export class App {
   protected readonly title = signal('proyecto');
