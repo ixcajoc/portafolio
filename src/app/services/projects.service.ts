@@ -26,6 +26,15 @@ export class ProjectsService {
       backendUrl:'https://github.com/ixcajoc/server-asofutbol',
     },
     {
+      name: 'Trashy',
+      description: '',
+      bg_proyect: 'images/trashy.jpg',
+      technologies: ['Angular', 'Express.js', 'Mongo DB'],
+      previewViewUrl:'https://reciclaje-plataforma-interactiva.vercel.app/',
+      frontendUrl:'https://github.com/ixcajoc/reciclaje-plataforma-interactiva',
+      backendUrl:'https://github.com/ixcajoc/reciclajegameproject_mongodb',
+    },
+    {
       name: 'Plataforma para descarga de diplomas digitales',
       // description: 'El más importante de todos, ya no por su calidad sino por todo lo que significa. Fue el proyecto que me mostró que si era capaz de crear soluciones que ayudaran a resolver el problema de alguien más.',
       technologies: ['HTML', 'CSS', 'Js'],
@@ -33,15 +42,6 @@ export class ProjectsService {
       previewViewUrl:'https://ixcajoc.github.io/juventudcursos/',
       frontendUrl:'https://github.com/ixcajoc/juventudcursos',
       backendUrl:'',
-    },
-    {
-      name: 'Trashy',
-      description: '',
-      // bg_proyect: 'images/asofutbol.jpg',
-      technologies: ['Angular', 'Express.js', 'Mongo DB'],
-      // previewViewUrl:'https://github.com/ixcajoc/client-asofutbol',
-      frontendUrl:'https://github.com/ixcajoc/reciclaje-plataforma-interactiva',
-      backendUrl:'https://github.com/ixcajoc/reciclajegameproject_mongodb',
     },
     {
       name: 'Bienes raices',
