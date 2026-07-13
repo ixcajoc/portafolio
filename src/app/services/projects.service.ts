@@ -9,7 +9,7 @@ export class ProjectsService {
   proyects: Project[] = [
     {
       name: 'Pasteleria Quetzal',
-      description: '',
+      description: 'App para gestion de pasteles, ingredientes y pedidos',
       bg_proyect: 'images/pasteleria_quetzal.jpg',
       technologies: ['Vue.js', 'PHP', 'MySQL'],
       previewViewUrl:'https://frontend-pasteleria.vercel.app/#/home',
@@ -18,7 +18,7 @@ export class ProjectsService {
     },
     {
       name: 'Asofutbol',
-      description: '',
+      description: 'App para gestion de ligas deportivas y asociadas',
       bg_proyect: 'images/asofutbol.jpg',
       technologies: ['Angular', 'Express.js', 'PostgreSQL'],
       previewViewUrl:'https://asofutbolsanlucas.vercel.app/',
@@ -27,7 +27,7 @@ export class ProjectsService {
     },
     {
       name: 'Trashy',
-      description: '',
+      description: 'App gamificada para clasificacion de residuos, entidades educativas',
       bg_proyect: 'images/trashy.jpg',
       technologies: ['Angular', 'Express.js', 'Mongo DB'],
       previewViewUrl:'https://reciclaje-plataforma-interactiva.vercel.app/',
@@ -35,8 +35,8 @@ export class ProjectsService {
       backendUrl:'https://github.com/ixcajoc/reciclajegameproject_mongodb',
     },
     {
-      name: 'Plataforma para descarga de diplomas digitales',
-      // description: 'El más importante de todos, ya no por su calidad sino por todo lo que significa. Fue el proyecto que me mostró que si era capaz de crear soluciones que ayudaran a resolver el problema de alguien más.',
+      name: 'App Diplomas Municipales',
+      description: 'Plataforma para descarga de diplomas digitales',
       technologies: ['HTML', 'CSS', 'Js'],
       bg_proyect: 'images/cursos_municipales.jpg',
       previewViewUrl:'https://ixcajoc.github.io/juventudcursos/',
@@ -45,7 +45,7 @@ export class ProjectsService {
     },
     {
       name: 'Bienes raices',
-      description: '',
+      description: 'App para gestion de bienes raices',
       technologies: ['HTML','Sass','Js', 'Gulp'],
       bg_proyect: 'images/bienesraices.jpg',
       previewViewUrl:'https://ixcajoc.github.io/bienesraices/',
@@ -54,7 +54,7 @@ export class ProjectsService {
     },
     {
       name: 'Festival de música',
-      description: '',
+      description: 'Landing para promocion de festivales de musica',
       technologies: ['HTML','Sass','Js', 'Gulp'],
       bg_proyect: 'images/festival.jpg',
       previewViewUrl:'https://ixcajoc.github.io/festival-musica/',
@@ -63,7 +63,7 @@ export class ProjectsService {
     },
     {
       name: 'Denis Cafeteria',
-      description: '',
+      description: 'Landing para cafeterias',
       technologies: ['html', 'css', 'Js'],
       bg_proyect: 'images/blog_cafe.jpg',
       previewViewUrl:'https://ixcajoc.github.io/denis-cafe/',
